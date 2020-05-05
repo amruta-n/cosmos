@@ -21,6 +21,7 @@ class CandyDistribution {
 //we need to find max for the upper bound in the binary search.
                 max = Math.max(max,arr[i]);
             }
+	    //prints result returned by binarySearch function
             System.out.println(binarySearch(n, k, arr, max));
         }
     }
